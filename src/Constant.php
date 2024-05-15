@@ -4,5 +4,5 @@ namespace Faisalilhami\LaravelConsulKv;
 
 class Constant
 {
-    const CONFIG_FILE = 'consul.php';
+  const CONFIG_FILE = 'consul.php';
 }

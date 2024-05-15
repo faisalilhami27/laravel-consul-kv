@@ -18,7 +18,7 @@ Faisalilhami\LaravelConsulKv\Provider::class
 Publish consul configuration file
 
 ```
-php artisan vendor:publish --provider="Faisalilhami\LaravelConsulKv\ConsulProvider"
+php artisan vendor:publish --provider="Faisalilhami\LaravelConsulKv\Provider"
 ```
 
 Publish consul configuration file

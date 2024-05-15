@@ -12,7 +12,7 @@ Package for help you load config from `Consul` server
 2. Register service in `providers` array in `boostrap/providers.php` if you are using Laravel >= 11
 
 ```
-Faisalilhami\LaravelConsulKv\ConsulProvider::class
+Faisalilhami\LaravelConsulKv\Provider::class
 ```
 
 Publish consul configuration file

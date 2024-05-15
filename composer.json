@@ -1,0 +1,22 @@
+{
+  "name": "faisalilhami/laravel-consul-kv",
+  "description": "Package for laravel to connect to consul kv",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Faisalilhami\\LaravelConsulKv\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Muhamad Faisal Ilhami Akbar",
+      "email": "faisal.ilhami2797@gmail.com"
+    }
+  ],
+  "require": {
+    "dcarbone/php-consul-api": "^2.0",
+    "illuminate/support": "^7|^8|^9|^10|^11",
+    "illuminate/console": "^7|^8|^9|^10|^11"
+  }
+}

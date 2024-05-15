@@ -11,7 +11,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Faisalilhami\\LaravelConsulKv\\ConsulProvider"
+        "Faisalilhami\\LaravelConsulKv\\Provider"
       ]
     }
   },

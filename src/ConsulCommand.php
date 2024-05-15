@@ -24,8 +24,8 @@ class ConsulCommand extends Command
    */
   protected $description = 'Get environment from Consul system';
 
-  private string $startString = '';
-  private string $endString = '';
+  private string $startString = '# Environment got from Consul ---------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>';
+  private string $endString = '# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<---------------------------------------- End Environment got from Consul';
 
   public string $configPath;
   public string $envPath;
@@ -55,7 +55,7 @@ class ConsulCommand extends Command
    */
   public function handle(): void
   {
-    echo "Starting get env from Consul\n";
+    echo "Starting get env from Consul ..................................................................\n";
 
     $env = File::get($this->envPath);
 
@@ -80,10 +80,10 @@ class ConsulCommand extends Command
 
     $this->putEnvironmentToDotEnv($this->envPath, $env);
 
-    echo "Finished get env from Consul\n";
+    echo "Finished get env from Consul ..................................................................\n";
   }
 
-  public function putEnvironmentToDotEnv(string $file, string $env, $mode = FILE_APPEND | LOCK_EX): void
+  public function putEnvironmentToDotEnv(string $file, string $env, $mode = FILE_APPEND | LOCK_EX)
   {
     File::put($file, $env, true);
   }

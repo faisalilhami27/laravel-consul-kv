@@ -8,6 +8,13 @@
       "Faisalilhami\\LaravelConsulKv\\": "src/"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Faisalilhami\\LaravelConsulKv\\ConsulProvider"
+      ]
+    }
+  },
   "authors": [
     {
       "name": "Muhamad Faisal Ilhami Akbar",

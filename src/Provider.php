@@ -2,8 +2,6 @@
 
 namespace Faisalilhami\LaravelConsulKv;
 
-use App\Console\Commands\consul\ConsulCommand;
-use Constant;
 use Exception;
 use Illuminate\Support\ServiceProvider;
 

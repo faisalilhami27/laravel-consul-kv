@@ -1,5 +1,6 @@
 <?php
 
+namespace Faisalilhami\LaravelConsulKv;
 
 use DCarbone\PHPConsulAPI\Config;
 use DCarbone\PHPConsulAPI\Consul;

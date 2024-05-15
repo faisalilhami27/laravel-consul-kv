@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Console\Commands\consul;
+namespace Faisalilhami\LaravelConsulKv;
 
-use Constant;
 use Exception;
-use ExternalClient;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
